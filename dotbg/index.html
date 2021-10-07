@@ -6,7 +6,11 @@
   <body>
     <center>
       <h1>DotBG description</h1>
-      <iframe frameborder="none" width="384px" height="319px" src="https://plugins.jetbrains.com/embeddable/card/15623"></iframe>
+      <div id="widget"></div>
     </center>
+    <script src="https://plugins.jetbrains.com/assets/scripts/mp-widget.js"></script>
+    <script>
+      MarketplaceWidget.setupMarketplaceWidget('card', 15623, "#widget");
+    </script>
   </body>
 </html>
